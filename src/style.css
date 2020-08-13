@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-top: 10px;
+  font-style: italic;
+  color: white;
+  background-color: teal;
+  border-radius: 5px;
+}
+
+.user_dashboard {
+  width: 60%;
+  margin: auto;
+}
+
+.user {
+  width: 50%;
+  height: 50px;
+  padding: 12.5px;
+  margin: auto;
+  margin-top: 10px;
+  font-size: large;
+  color: whitesmoke;
+  border-radius: 5%;
+  border-style: hidden;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.activityModal {
+  background: black;
+  background-color: lightgoldenrodyellow;
+  position: fixed;
+  z-index: 1;
+  left: 25%;
+  top: 1%;
+  width: 50%;
+  height: 90%;
+}
+.closebtn {
+  border-radius: 100%;
+  width: 20px;
+  background-color: #000000;
+  color: white;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+table,
+td {
+  border: 2px solid black;
+  border-radius: 5%;
+  border-collapse: collapse;
+}
+
+thead,
+tfoot {
+  background-color: teal;
+  border: 1px solid black;
+  color: #fff;
+}
+
+#no-items {
+  border: transparent;
+  height: 50%;
+  padding: 15%;
+}
+.tableclass {
+  display: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+}
+.dateSelector {
+  display: absolute;
+  margin: 10% 50% 10% 50%;
+}
+.calender {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+.calenderbox {
+  display: inline;
+}
